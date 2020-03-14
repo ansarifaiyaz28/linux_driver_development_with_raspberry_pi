@@ -14,7 +14,7 @@ static int num = 5;
  of the corresponding file in sysfs
  module_param(name, type, perm)
  */
-module_param(num, int, S_IRUGO);
+module_param(num, int, S_IRUGO);	//S_IRUGO: everyone can read the sysfs entry
 
 static int __init hello_init(void){
 	pr_info("parameter num = %d\n", num);
