@@ -1,0 +1,6 @@
+This file teaches you how to commit any file to GITHUB by was originally created on ubuntu .
+
+1. Create a file first.
+2. Add to the folder for indexing if new; "git add example.c"
+3. Committig changes made to the index; "git commit -m 'some_message'"
+4. If you have already reposity on github then - "git push origin master"
